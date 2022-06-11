@@ -1,0 +1,13 @@
+import React from 'react'
+import { useLocation } from 'react-router'
+
+const Success = () => {
+  const location = useLocation()
+console.log(location);
+console.log("bass kar")
+  return (
+    <div>Successful</div>
+  )
+}
+
+export default Success
