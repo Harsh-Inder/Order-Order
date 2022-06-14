@@ -1,0 +1,12 @@
+@media screen and (max-width: 380px){
+    .container {
+        padding: 0;
+        flex-direction: column;
+    }
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
